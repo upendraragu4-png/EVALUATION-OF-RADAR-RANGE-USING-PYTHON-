@@ -26,7 +26,7 @@ transmitter gain, receiver gain, radar frequency, radar cross section, and minim
 
 
    ___Algorithm__:
-   ```
+```   
    clc
 clear;
 close;
@@ -59,8 +59,8 @@ Pr_G = (Pt_fixed .* G_values.^2 .* lambda^2 .* sigma) ./ (pi4 .* R_fixed.^4);
 figure(3);
 plot(G_values, Pr_G);
 xlabel("Power Received");
-ylabel("Gain");```
-
+ylabel("Gain");
+```
    
 
 
